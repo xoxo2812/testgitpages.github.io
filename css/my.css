@@ -1,0 +1,54 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #f8f9fa;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+nav {
+  transition: 0.5s;
+}
+
+.scroll nav {
+  background-color: rgba(255, 255, 255, 0.6) !important;
+  border-bottom: 1px solid #222;
+  padding: 0 !important;
+}
+
+.scroll nav a {
+  color: black !important;
+}
+
+.nav-link.act {
+  color: red !important;
+}/*# sourceMappingURL=my.css.map */
